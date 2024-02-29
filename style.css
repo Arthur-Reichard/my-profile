@@ -1,0 +1,105 @@
+body{
+	font-family: opera sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: yellow;
+}
+
+h1{
+	color: black;
+	font: .protest-riot-regular;
+  	font-family: "Protest Riot", sans-serif;
+  	font-weight: 800;
+  	font-style: italic;
+  	font-size: 50px;
+  	letter-spacing: 5px;
+  	text-transform: uppercase;
+}
+
+
+h2{
+	color: rgb(0,30,80);
+	font-size: 30px;
+	font-family: Franklin Gothic;
+}
+
+#leader{
+	font-size: 70px;
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+
+.container{
+	width: 900px;
+	margin: 0px;
+}
+
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+
+.social {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.social i{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.social li{
+	display: inline;
+}
+
+.container{
+	margin: 40px auto;
+	width: 700px;
+}
+
+.card-white{
+	background-color: white;
+	padding: 45px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	margin: 20px;
+	border-radius: 10px;
+}
+
+.btn-purple{
+	background-color: blue;
+	color: white;
+	padding: 15px 20px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-purple:hover {
+	background-color: white;
+	color: blue;
+}
